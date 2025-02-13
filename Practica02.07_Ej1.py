@@ -2,7 +2,7 @@ introducido = input("Que numero quieres introducir")
 nombre = "tabla-n.txt"
 file = open("tabla-n.txt".replace("n",introducido),"w")
 a=0
-for i in range(10):
+for i in range(11):
     file.write(introducido)
     file.write("x")
     i=str(i)
@@ -12,4 +12,3 @@ for i in range(10):
     file.write(str(a))
     file.write("\n")
 
-os.mkdir[]
